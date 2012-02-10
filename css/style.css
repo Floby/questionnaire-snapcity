@@ -8,13 +8,15 @@ body {
 
 .picture-wrapper {
     background: #DADADA;
-    border-radius: 4px;
+    border-radius: 4px 4px 1px 1px;
     padding: 8px;
-    position: relative;
+    padding-bottom: 26px;
+    position: absolute;
     width: 200px;
     height: 200px;
+    -webkit-transition: all 0.7s ease-in-out;
+    box-shadow: 3px 3px 20px black;
 }
-
 .collection-centerer {
     width: 0;
     position: relative;
@@ -25,5 +27,51 @@ body {
 .picture-collection-container {
     position: relative;
     left:-100px;
+    top:  0px;
+    -webkit-transition: all 0.7s ease-out;
 }
 
+.picture-collection-container.hidden-start {
+    top: -500px; 
+}
+
+
+/* rotations */
+.picture-wrapper.picture-1 {
+    -webkit-transform: rotate(5deg);
+    top: -4px;
+    left: -14px;
+}
+.picture-wrapper.picture-2 {
+    -webkit-transform: rotate(-9deg);
+    top: 0px;
+    left: 5px;
+}
+.picture-wrapper.picture-3 {
+    -webkit-transform: rotate(2deg);
+    top: -1px;
+}
+.picture-wrapper.picture-4 {
+    -webkit-transform: rotate(0deg);
+    top: 1px;
+    left: 1px;
+}
+
+.spread-4 .picture-wrapper {
+    -webkit-transform: rotate(0deg);
+    top:0px;
+    left:0px;
+}
+
+.spread-4 .picture-1 {
+    left: -115px;
+}
+.spread-4 .picture-2 {
+    left: 115px;
+}
+.spread-4 .picture-3 {
+    left: -345px;
+}
+.spread-4 .picture-4 {
+    left: 345px;
+}
