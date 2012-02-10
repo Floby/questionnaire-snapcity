@@ -1,0 +1,29 @@
+html, body {
+    background: #212121;
+}
+
+body {
+    height: 100%;
+}
+
+.picture-wrapper {
+    background: #DADADA;
+    border-radius: 4px;
+    padding: 8px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.collection-centerer {
+    width: 0;
+    position: relative;
+    left: 50%;
+    top:30%;
+}
+
+.picture-collection-container {
+    position: relative;
+    left:-100px;
+}
+
