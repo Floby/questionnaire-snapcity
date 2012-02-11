@@ -38,6 +38,7 @@ h1 {
 
 form label {
     -webkit-transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 form label.active {
