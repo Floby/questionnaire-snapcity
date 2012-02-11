@@ -3,6 +3,8 @@
     src: url(../font/circhand.ttf) format("truetype");
 }
 
+.clear {clear:both;}
+
 html, body {
     background: #212121;
     background: red;
@@ -32,6 +34,36 @@ h1 {
     -webkit-transition: all 1s ease-in-out;
     opacity: 0;
 }
+
+form label.active {
+   color: #7df9ff;
+   text-shadow: 0 0 10px lightblue;
+}
+
+.text-form {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5em 3em;
+    max-width: 300px;
+    -webkit-transition: all 1s ease-in-out;
+    /*opacity: 0;*/
+}
+
+.text-form .field-wrapper {
+    width: 100%;
+}
+.text-form .field-wrapper input {
+    float: right;
+}
+
+.text-form .field-radio {
+}
+.text-form .field-radio label {
+    float: right;
+    margin-left: 1em;
+}
+
 
 #intro .text-intro {
     opacity: 1;
