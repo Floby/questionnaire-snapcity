@@ -84,6 +84,22 @@ form input.large {
     margin-left: 1em;
 }
 
+.text-form .field-submit input {
+    border:none;
+    background: none;
+    font-size: 100%;
+    font-family: handwriting;
+    color: #dadada;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 15px gray;
+    padding-top: 15px;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+.text-form .field-submit input:hover {
+    box-shadow: 0 0  15px #7df9ff;
+}
+
 #intro .text-intro {
     opacity: 1;
 }
