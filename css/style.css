@@ -73,6 +73,8 @@ form input.large {
     margin-left: 1em;
     height: 2em;
     padding: 0 1em;
+}
+.text-form .field-wrapper input {
     background: #dadada;
 }
 
@@ -87,19 +89,35 @@ form input.large {
     margin-left: 1em;
 }
 
-.text-form .field-submit input {
+.text-form .field-submit span {
+    float: right;
     border:none;
     background: none;
     font-size: 100%;
     font-family: handwriting;
     color: #dadada;
-    cursor: pointer;
     border-radius: 5px;
     box-shadow: 0 0 15px gray;
-    padding-top: 15px;
+    padding: 0.7em 1em 0.3em;
     -webkit-transition: all 0.2s ease-in-out;
+    position: relative;
+    display:block;
+    line-height: 1em;
 }
-.text-form .field-submit input:hover {
+.text-form .field-submit input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin:0;
+    border: none;
+    color: none;
+    background: none;
+    cursor: pointer;
+}
+.text-form .field-submit span:hover {
     box-shadow: 0 0  15px #7df9ff;
     color: #7df9ff;
     text-shadow: 0 0 15px lightblue;
