@@ -50,6 +50,7 @@ form input.large {
     text-align: right;
     border: none;
     border-radius: 2px;
+    font-size: 18px;
 }
 
 .text-form {
@@ -71,6 +72,7 @@ form input.large {
     margin-left: 1em;
     height: 2em;
     padding: 0 1em;
+    background: #dadada;
 }
 
 .text-form .field-radio {
