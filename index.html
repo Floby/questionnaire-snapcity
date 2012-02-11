@@ -31,6 +31,30 @@
                     <option value="50+">Plus de 50 ans</option>
                 </select>
                 <label for="age">Tranche d'age</label>
+                <div class="clear"></div>
+            </div>
+            <div class="field-wrapper field-use">
+                <p>Utilisation de votre smartphone :</p>
+                <input type="checkbox" id="use-phone-appel" name="use-phone[]" value="appel">
+                <label for="use-phone-appel">Appels</label>
+                <div class="clear"></div>
+                <input type="checkbox" id="use-phone-sms" name="use-phone[]" value="sms">
+                <label for="use-phone-sms">SMS</label>
+                <div class="clear"></div>
+                <input type="checkbox" id="use-phone-email" name="use-phone[]" value="email">
+                <label for="use-phone-email">E-mail</label>
+                <div class="clear"></div>
+                <input type="checkbox" id="use-phone-social" name="use-phone[]" value="social">
+                <label for="use-phone-social">Réseaux sociaux</label>
+                <div class="clear"></div>
+                <input type="checkbox" id="use-phone-game" name="use-phone[]" value="game">
+                <label for="use-phone-game">Jeux</label>
+                <div class="clear"></div>
+                <input type="checkbox" id="use-phone-photo" name="use-phone[]" value="photo">
+                <label for="use-phone-photo">Photos</label>
+                <div class="clear"></div>
+                <input class="large" type="text" name="use-phone-other" value="" placeholder="Autres, séparé par des virgules">
+                <div class="clear"></div>
             </div>
         </form>
         <div class="text-intro">
@@ -53,8 +77,10 @@
                 </div>
             </div> <!-- .picture-collection-container -->
         </div> <!-- .collection-centerer -->
+        <div class="clear"></div>
     </div> <!-- #global-wrapper -->
     <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/jquery.addplaceholder.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="script/main.js"></script>
 </body>
 </html>

@@ -30,6 +30,7 @@ h1 {
 }
 .text-intro {
     padding: 5em 2em;
+    padding-bottom: 0;
     max-width: 300px;
     -webkit-transition: all 1s ease-in-out;
     opacity: 0;
@@ -44,11 +45,17 @@ form label.active {
    text-shadow: 0 0 10px lightblue;
 }
 
+form input.large {
+    width: 90%;
+    text-align: right;
+    border: none;
+    border-radius: 2px;
+}
+
 .text-form {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 5em 2em;
+    float:right;
+    padding: 2em 2em;
+    padding-bottom: 0;
     max-width: 300px;
     -webkit-transition: all 1s ease-in-out;
     /*opacity: 0;*/
@@ -76,7 +83,6 @@ form label.active {
     float: right;
     margin-left: 1em;
 }
-
 
 #intro .text-intro {
     opacity: 1;
