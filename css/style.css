@@ -29,10 +29,14 @@ h1 {
     font-size: 200%;
 }
 .text-intro {
-    padding: 5em 3em;
+    padding: 5em 2em;
     max-width: 300px;
     -webkit-transition: all 1s ease-in-out;
     opacity: 0;
+}
+
+form label {
+    -webkit-transition: all 0.2s ease-in-out;
 }
 
 form label.active {
@@ -44,7 +48,7 @@ form label.active {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 5em 3em;
+    padding: 5em 2em;
     max-width: 300px;
     -webkit-transition: all 1s ease-in-out;
     /*opacity: 0;*/
@@ -52,12 +56,21 @@ form label.active {
 
 .text-form .field-wrapper {
     width: 100%;
+    margin-bottom: 1em;
 }
+.text-form .field-wrapper select,
 .text-form .field-wrapper input {
     float: right;
+    margin-left: 1em;
+    height: 2em;
+    padding: 0 1em;
 }
 
 .text-form .field-radio {
+}
+.text-form .field-radio input {
+    margin-left: 5px;
+    height: 13px;
 }
 .text-form .field-radio label {
     float: right;
