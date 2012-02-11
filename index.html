@@ -6,28 +6,36 @@
     <title>Connaissez-vous cet endroit ?</title>
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
+    <script type="text/javascript" charset="utf-8" src="script/prefixfree.min.js"></script>
     
 </head>
 <body id="intro">
-    <div class="text-intro">
-        <h1>Bienvenue.</h1>
-        <p>D'abord, 3 questions chiantes avant de commencer. Promis, seulement trois !</p>
-    </div>
-    <div class="collection-centerer">
-        <div class="picture-collection-container spread-4">
-            <div class="picture-wrapper picture-1">
-                <img src="images/holga-polaroid.jpg" height="200" width="200" alt="" />
-            </div>
-            <div class="picture-wrapper picture-2">
-                <img src="images/holga-fanfare.jpg" height="200" width="200" alt="" />
-            </div>
-            <div class="picture-wrapper picture-3">
-                <img src="images/holga-eiffel.jpg" height="200" width="200" alt="" />
-            </div>
-            <div class="picture-wrapper picture-4">
-                <img src="images/holga-haussman.jpg" height="200" width="200" alt="" />
-            </div>
+    <div id="global-wrapper">
+        <div>
+            <input type="button" id="toggle-spread" name="toggle-spread" value="Toggle">
         </div>
-    </div>
+        <div class="text-intro">
+            <h1>Bienvenue.</h1>
+            <p>D'abord, 3 questions chiantes avant de commencer. Promis, seulement trois !</p>
+        </div><!-- .text-intro -->
+        <div class="collection-centerer">
+            <div class="picture-collection-container">
+                <div class="picture-wrapper picture-1">
+                    <img src="images/holga-polaroid.jpg" height="200" width="200" alt="" />
+                </div>
+                <div class="picture-wrapper picture-2">
+                    <img src="images/holga-fanfare.jpg" height="200" width="200" alt="" />
+                </div>
+                <div class="picture-wrapper picture-3">
+                    <img src="images/holga-eiffel.jpg" height="200" width="200" alt="" />
+                </div>
+                <div class="picture-wrapper picture-4">
+                    <img src="images/holga-haussman.jpg" height="200" width="200" alt="" />
+                </div>
+            </div> <!-- .picture-collection-container -->
+        </div> <!-- .collection-centerer -->
+    </div> <!-- #global-wrapper -->
+    <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/main.js"></script>
 </body>
 </html>

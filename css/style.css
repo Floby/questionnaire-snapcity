@@ -5,6 +5,7 @@
 
 html, body {
     background: #212121;
+    background: red;
 }
 
 body {
@@ -12,6 +13,14 @@ body {
     font-family: handwriting;
     color: #dadada;
     font-size: 200%;
+}
+
+#global-wrapper {
+    width: 100%;
+    max-width: 1024px;
+    background: #212121;
+    margin: auto;
+    position: relative;
 }
 
 h1 {
