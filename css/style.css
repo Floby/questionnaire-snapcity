@@ -100,6 +100,8 @@ form input.large {
 }
 .text-form .field-submit input:hover {
     box-shadow: 0 0  15px #7df9ff;
+    color: #7df9ff;
+    text-shadow: 0 0 15px lightblue;
 }
 
 #intro .text-intro {
