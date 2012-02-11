@@ -1,9 +1,31 @@
+@font-face {
+    font-family: handwriting;
+    src: url(../font/circhand.ttf) format("truetype");
+}
+
 html, body {
     background: #212121;
 }
 
 body {
     height: 100%;
+    font-family: handwriting;
+    color: #dadada;
+    font-size: 200%;
+}
+
+h1 {
+    font-size: 200%;
+}
+.text-intro {
+    padding: 5em 3em;
+    max-width: 300px;
+    -webkit-transition: all 1s ease-in-out;
+    opacity: 0;
+}
+
+#intro .text-intro {
+    opacity: 1;
 }
 
 .picture-wrapper {
@@ -19,7 +41,7 @@ body {
 }
 .collection-centerer {
     width: 0;
-    position: relative;
+    position: absolute;
     left: 50%;
     top:30%;
 }
