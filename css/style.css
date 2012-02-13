@@ -147,6 +147,8 @@ form input.large {
     /*-moz-transition: box-shadow 0.3s ease-in-out;*/
 }
 .picture-wrapper:hover {
+    -webkit-transition: box-shadow 0.3s ease-in-out;
+    -moz-transition: box-shadow 0.3s ease-in-out;
     box-shadow: 0px 0px 20px #7df9ff;
 }
 .collection-centerer {
