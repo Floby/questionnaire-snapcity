@@ -68,20 +68,24 @@
             <p>D'abord, 3 questions chiantes avant de commencer. Promis, seulement trois !</p>
         </div><!-- .text-intro -->
         <div class="collection-centerer">
-            <div class="picture-collection-container">
-                <div class="picture-wrapper picture-1">
+            <form method="GET" action="" class="picture-collection-container">
+                <label for="form-1-picture-1" class="picture-wrapper picture-1">
                     <img src="images/holga-polaroid.jpg" height="200" width="200" alt="" />
-                </div>
-                <div class="picture-wrapper picture-2">
+                </label>
+                <label for="form-1-picture-2"class="picture-wrapper picture-2">
                     <img src="images/holga-fanfare.jpg" height="200" width="200" alt="" />
-                </div>
-                <div class="picture-wrapper picture-3">
+                </label>
+                <label for="form-1-picture-3" class="picture-wrapper picture-3">
                     <img src="images/holga-eiffel.jpg" height="200" width="200" alt="" />
-                </div>
-                <div class="picture-wrapper picture-4">
+                </label>
+                <label for="form-1-picture-4" class="picture-wrapper picture-4">
                     <img src="images/holga-haussman.jpg" height="200" width="200" alt="" />
-                </div>
-            </div> <!-- .picture-collection-container -->
+                </label>
+                <input id="form-1-picture-1" type="radio" name="picture" value="1" />
+                <input id="form-1-picture-2" type="radio" name="picture" value="2" />
+                <input id="form-1-picture-3" type="radio" name="picture" value="3" />
+                <input id="form-1-picture-4" type="radio" name="picture" value="4" />
+            </form> <!-- .picture-collection-container -->
         </div> <!-- .collection-centerer -->
         <div class="clear"></div>
     </div> <!-- #global-wrapper -->
